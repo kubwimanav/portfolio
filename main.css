@@ -68,17 +68,33 @@ a {
 
 
 .rightabout{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   background-color: white;
-  align-items: center;
   width: 80%;
   height: 300px;
   padding-left: 20px;
   padding-top: 10px;
 }
+.aboutper{
+  font-weight: bold;
+  font-size: 20px;
+}
+.aboutbutton{
+  background-color: #8490ff;
+  color: white;
+  font-weight: bold;
+  width: 40%;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+}
 
 
-.seve.about{
+.about{
   display: flex;
+  gap: 20px;
   align-items: center;
 
 }
@@ -90,27 +106,25 @@ a {
   background-color: #f5f6f8;
 }
 
-.se{
-  height: 4rem;
-  padding: 2rem 35rem;
-  align-items: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.off{
-  align-items: center;
-  padding:2rem 24rem;
-  background-color: #f5f6f8;
-}
-.off h1{
-  padding: 0rem 6rem;
-}
-.service{
-  display: flex;
-  padding: 2rem 5rem;
-  font-size: 5px;
-  border-radius: 5px;
-  gap: 7rem;
 
+
+
+
+
+.servicetitle{
+ display: flex;
+ flex-direction: column;
+}
+.servicetitle h6{
+  font-size: 16px;
+}
+
+.cardscenter:hover{
+  color: #8490ff;
+}
+.cards p{
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .servin{
   display: flex;
@@ -126,25 +140,9 @@ a {
   transition: 1000ms;
 
 }
-.cards:hover{
-background-color:#8490ff;
-transform: rotateY(50deg);
-border-style: none;
-}
-.cards{
-  background-color: white;
-  padding: 10px 10px; 
-  border-style: solid;
-  border-radius: 5px;
-  border-width: 1px;
-  box-shadow: none;
 
-}
-.cards i{
-  color: #8490ff;
- font-size: 25px;
 
-}
+
 .enter{
   padding: 2rem 20rem;
   align-items: center;
