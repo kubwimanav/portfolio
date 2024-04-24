@@ -6,7 +6,7 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-header {
+.header {
 
   background-color: white;
   /* width: 300vh; */
@@ -43,14 +43,16 @@ a {
 }
 
 .hero{
-  margin-top: 50px;
   display: flex;
   align-items: center;
   gap:2rem ;
   padding: 2rem 5rem;
-  background-color: #fafbfc;
   height: 500px;
 }
+
+/* #about{
+  background-color: red;
+} */
 .image img{
   width: 100%;
   height: 350px;
@@ -63,9 +65,7 @@ a {
  border-radius: 10px;
 
 }
-#about{
-  background-color: #fafbfc;
-}
+
 
 .rightabout{
   background-color: white;
@@ -75,24 +75,12 @@ a {
   padding-left: 20px;
   padding-top: 10px;
 }
-/* .service{
-  background-color: #8490ff;
-} */
 
-/* about section*/
-.sek{
-  height: 4rem;
-  font-size: 20px;
-  padding: 2rem 35rem;
-  align-items: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: white;
-}
+
 .seve.about{
   display: flex;
   align-items: center;
-  /* gap: 2rem;
-  padding: 2rem 5rem; */
+
 }
 .about{
   align-items: center;
@@ -101,7 +89,7 @@ a {
   gap: 10rem; 
   background-color: #f5f6f8;
 }
-/* service section*/
+
 .se{
   height: 4rem;
   padding: 2rem 35rem;
@@ -198,7 +186,7 @@ form{
   outline: none;
   
 }
-/* footer */
+
 footer{
   height: 15rem;
   background-color: #333;
@@ -220,7 +208,7 @@ footer{
   color: white;
 }
 
-/* Style the sections within the footer */
+
 .about-section{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -265,15 +253,14 @@ footer{
 .social-links {
   text-decoration: none;
 }
-/*  */
+
 
 .text h1{
-  /* color: #8490ff; */
+
   font-size: 60px;
 }
 .simplecard{
-  /* background-color: aqua; */
- /* border-top: #ff6600; */
+
  border-color: #8490ff;
  border-style: solid;
  border-radius: 5px;
@@ -284,7 +271,7 @@ footer{
 }
 
 .hireme {
-  /* color: #8490ff; */
+
   background-color: #8490ff ;
   width: 25%;
   height: 50px;
@@ -297,12 +284,11 @@ footer{
   padding: 15px 50px;
   color: white;
   font-size: 14x;
-  /* margin-left: 40px;
-  margin-top: 50px; */
+
   
 }
 
-/* Add hover effect for social links */
+
 .social-links a:hover {
   text-decoration: underline;
 }
@@ -358,6 +344,7 @@ body {
   padding: 0;
 }
 
+
 .vbb {
   display: flex;
   padding: 2rem 25rem;
@@ -388,8 +375,8 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .content{
-    padding: 1rem 12rem;
-    display: flex;
+ padding: 1rem 12rem;
+ display: flex;
   background-color: #f5f6f8;
  display: grid;
  grid-template-columns: repeat(3,1fr);
