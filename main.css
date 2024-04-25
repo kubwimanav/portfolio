@@ -1,5 +1,4 @@
 body {
-  /* background-color: rgb(35, 33, 28); */
   margin: 0;
   padding: 0;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -325,7 +324,7 @@ footer{
 }
 .navs{
   display: flex;
-  width: 70rem;
+  width: 72rem;
   gap: 30rem;
   padding: 0px 60px 0px 90px ;
   position: fixed;
