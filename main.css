@@ -174,11 +174,16 @@ a {
 form{
   margin: 35px;
 }
-.input{
+.contactdiv{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.inputcontact{
   width: 400px;
   height: 40px;
   border: 1px solid #777;
-  border-radius: 8px;
+  border-radius: 3px;
   margin-top: 2px;
   outline: none;
   
@@ -311,6 +316,10 @@ footer{
   border: none;
   border-radius: 5px;
   height: 20rem;
+}
+.contacttitle{
+  background-color: #8490ff;
+  padding: 50px;
 }
 .contact-item i {
   font-size: 10px;
