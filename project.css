@@ -1,16 +1,15 @@
-.icon-paragraph{
-    display: flex;
-    gap: 10px;
-}
-.aboutparagragh1{
+.projectpargraph{
     padding-top: 70px;
     background-color:#8490ff;
     display: flex;
     flex-direction: column;
-    color: white;
     align-items: center;
+    color: white;
 }
-.aboutparagragh1 h6{
+.projectpargraph h6{
     font-size: 25px;
-
+}
+.icon-paragraph{
+    display: flex;
+    gap: 10px;
 }
