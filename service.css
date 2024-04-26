@@ -1,0 +1,21 @@
+.servicepargraph{
+    padding-top: 70px;
+    background-color:#8490ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.servicepargraph h6{
+    font-size: 25px;
+}
+.icon-paragraph{
+    display: flex;
+    gap: 10px;
+}
+.cardscenter i{
+    font-size: 25px;
+}
+.cardscenter:hover{
+    color: #8490ff;
+}
