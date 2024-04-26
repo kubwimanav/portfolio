@@ -1,0 +1,14 @@
+.contactpargraph{
+    background-color:#8490ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.contactpargraph h6{
+    font-size: 25px;
+}
+.icon-paragraph{
+    display: flex;
+    gap: 10px;
+}
