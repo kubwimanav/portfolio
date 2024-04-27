@@ -291,6 +291,50 @@ footer{
 }
 
 
+.circle1{
+  height: 150px;
+width: 150px;
+background-color: rgb(226,229,255);
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;  
+}
+.circle {
+height: 100px;
+width: 100px;
+background-color: rgb(237,239,255);
+border-radius: 50%;
+position: relative;
+
+}
+.contents{
+    position: absolute;
+    width: inherit;
+    height: auto;
+    text-align: center;
+    top: 40%;
+    font-size: 20px;
+    transform: translateX(-50%);
+    
+}
+.circle-div{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.circle-title{
+   font-size: 17px;
+   font-weight: bold;
+}
+
+
+
+
+
+
+
+
 .social-links a:hover {
   text-decoration: underline;
 }
