@@ -12,7 +12,6 @@
 </head>
 <body>
    <section  id="contactus">
- <body>
     <section class="header">
       <nav class="navs">
         <div class="user">
@@ -62,14 +61,20 @@
           <p>vkubwimana20@gmail.com</p>
         </div>
     </div>
-     <div class="contactdiv">
-       <input type="text" class="inputcontact" placeholder="Enter Your Name" > 
-       <input type="text" class="inputcontact" placeholder="Enter Subject">
-       <input type="text" class="inputcontact" placeholder="Enter Email Addres">
+    <form action="" id="form"  class="forminput">
+     <div class="contactdivs">
+       <div>
+       <input type=""  id="name" class="inputcontact" placeholder="Enter Your Name" > 
+       <input type=""  id="subject" class="inputcontact" placeholder="Enter Subject">
+       <input type=""  id="email"  class="inputcontact" placeholder="Enter Email Addres">
+       <span id="email_error" style="color: red; font-size: 20px;"></span>
+       </div>
+       <div>
+       <textarea  class="t" rows="8" cols="40" id="message" placeholder="type your message"></textarea>
+       </div>
      </div>
-     <div >
-       <textarea  class="t" rows="8" cols="40" placeholder="type your message"></textarea>
-     </div>   
+     <button type="submit"> submit</button>
+     </form>   
    </div>
   </section>
   <section>
@@ -141,17 +146,11 @@
    </footer>
  </section>
    
-
-  
-    
-
-
-  
-
-
-  
-   
-  </body>
    </section> 
+
+
+   <script src="main.js">
+
+   </script>
 </body>
 </html>
