@@ -173,6 +173,33 @@
       </div>
    
   </section>
+  <section class="countsection">
+    <center>
+                <div id="number" class="numbers">
+                
+                </div>
+                <p>Projects Completed</p>
+    </center>
+      <center>
+                <div id="number1" class="numbers">
+                
+                </div>
+                <p>Happy Clients</p>
+      </center>
+      <center>
+                <div id="number2" class="numbers">
+                
+                </div>
+                <p>Cups of Coffee</p>
+      </center>
+      <center>
+                <div id="number3" class="numbers">
+                
+                </div>
+                <p>Real Professionals</p>
+      </center>
+   
+  </section>
   <!-- portfolio -->
   <section id="portfolio">
      <center class="servicetitle">
@@ -323,6 +350,46 @@
 
 
 
+ <section>
+  <center class="servicetitl">
+   <h6>Latest Posts From Our Blog</h6>
+  <p>You may be a skillful, effective employer but if you don’t trust your personnel and the opposite,</br>
+     then the chances of improving and expanding the business </p>
+  </center>
+  <div class="divblog">
+          <div class="divblog1">
+          <img src="p1.jpg.webp" alt="">
+          <div></div>
+          <h6>BREAK THROUGH SELF DOUBT AND FEAR</h6>
+          <p>Dream interpretation has many forms; 
+            it can be done be done for the sake of fun,
+             hobby or can be taken up as a serious career.</p>
+          </div>
+
+
+          <div class="divblog1">
+          <img src="p1.jpg.webp" alt="">
+          <div></div>
+          <h6>BREAK THROUGH SELF DOUBT AND FEAR</h6>
+          <p>Dream interpretation has many forms; 
+            it can be done be done for the sake of fun,
+             hobby or can be taken up as a serious career.</p>
+          </div>
+
+          <div class="divblog1">
+          <img src="p1.jpg.webp" alt="">
+          <div></div>
+          <h6>BREAK THROUGH SELF DOUBT AND FEAR</h6>
+          <p>Dream interpretation has many forms; 
+            it can be done be done for the sake of fun,
+             hobby or can be taken up as a serious career.</p>
+          </div>
+
+  </div>      
+ </section>
+
+
+
   <section>
    <footer>
       <div class="FOOT">
@@ -396,7 +463,57 @@
   
     
 
+ <script>
+        let number= document.getElementById('number');
+        let number1= document.getElementById('number1');
+        let number2= document.getElementById('number2');
+        let number3= document.getElementById('number3');
 
+        let counter=0;
+        let counter1=0;
+         let counter2=0;
+          let counter3=0;
+        setInterval(()=>{
+            if(counter==546){
+                clearInterval()
+            }
+            else{
+           counter+=1;
+            number.innerHTML=counter ;
+            }
+        
+        },25);
+          setInterval(()=>{
+            if(counter1==250){
+                clearInterval()
+            }
+            else{
+           counter1+=1;
+            number1.innerHTML=counter ;
+            }
+        
+        },25);
+          setInterval(()=>{
+            if(counter2==452){
+                clearInterval()
+            }
+            else{
+           counter2+=1;
+            number2.innerHTML=counter ;
+            }
+        
+        },25);
+          setInterval(()=>{
+            if(counter3==522){
+                clearInterval()
+            }
+            else{
+           counter3+=1;
+            number3.innerHTML=counter ;
+            }
+        
+        },25);
+    </script>
   
 
 

@@ -1,0 +1,32 @@
+.skill{
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+.outer{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    border: 1px solid red;
+    padding: 20px;
+}
+.inner{
+   height: 160px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    width: 160px;
+    border-radius: 50%;
+    border: 1px solid red;  
+}
+.countsection{
+    display: flex;
+    gap: 20px;
+    background-color:  #8490ff;
+    align-items: center;
+    justify-content: center;
+}
+.numbers{
+    font-size: 50px;
+    font-weight: bold;
+}

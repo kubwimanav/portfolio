@@ -472,3 +472,32 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   .follow p{
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
+
+
+  .countsection{
+    display: flex;
+    color: white;
+    gap: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color:  rgb(101,184,252);
+    align-items: center;
+    justify-content: center;
+}
+
+.numbers{
+    font-size: 40px;
+    font-weight: bold;
+}
+.divblog{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.divblog1{
+  width: 20rem;
+}
+.divblog1 img{
+    width: 19rem;
+}
